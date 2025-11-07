@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang ="en">
+<title>Layer 6</title>
+<link rel="stylesheet" href="layer6.css">
+<link rel="icon" type="image/x-icon" href="Images/OSI-ICON.png">
+<ul class="navigation">
+	<li><img src="Images/OSI-ICON.png" alt="OSI Icon" width="50" height="50"></li>
+	<li><a href="home.html" target="_self">Home</a></li>
+	<li><a href="layerseven.html" target="_self">Layer 7</a></li>
+	<li><a href="layersix.html" target="_self" style="background-color:teal;">Layer 6</a></li>
+	<li><a href="layerfive.html" target="_self">Layer 5</a></li>
+	<li><a href="layerfour.html" target="_self">Layer 4</a></li>
+</ul>
+<h1 style="text-align:center; font-size:50px;">Layer 6 of the OSI Model</h1>
+<hr>
+<body>
+<p>
+	<details open>
+		<summary style="font-size:25px;"><b><u>Defintion</u></b></summary>
+		<hr>
+		<p> Layer 6, the presentation layer, is also known as the syntax layer or translation layer. It has the role of 			transmitting encrypted formatted data across networks and ensuring it’s readable by other systems. It receives data from 		layer 7 and formats it to be transmitted over the network. Main functions involve providing the proper data format and 			encryption.</p>
+	</details>
+
+<br>
+<br>
+
+	<details open>
+		<summary style="font-size:25px;";><u><b>Functions</u></b></summary>
+		<hr>
+		<p>Layer 6 functions with data translation, which translates data into another format to be read by other systems. 			Encryption/decryption translates the data into an unreadable format known as ciphertext before it is transmitted, and 			decrypts it after reaching the receiver. Compress/decompression encodes the data to increase the speed at which it is 			being transmitted. The receiver then decompresses it to access the information.</p>
+		<br>
+		<b><u><p>Function Overview</p></b></u>
+		<ul>
+			<li>Data translation - translates data into another format to be used by another system, and translates it back 			later.</li>
+			<li>Encryption/Decryption - Encrypts the data into an unreadable format, known as ciphertext, before transmission. 			The receiver has the correct encryption key to access the data.</li>
+			<li>Compression/Decompression - Compresses the data to increase the speed at which it can be transmitted. (ZIP, 			MPEG, etc.) Decompresses at the receiver end to access the information.</li>
+		</ul>
+	</details>
+<br>
+<br>
+	<details open>
+		<summary style="font-size:25px;";><b><u>Format Examples</u></b></summary>
+		<hr>
+		<p>Examples of formats are things like JPEG, which is used for compressing images. MP3, which is used for compressing 			audio, and SSL or TLS, which encrypts data as it's being transmitted to prevent interceptions of the data.</p>
+		<br>
+		<b><u><p>Formats</p></b></u>
+		<ul>
+			<li>JPEG (Joint Photographic Experts Group) - a format for compressing images.</li>
+			<li>MP3 (MPEG (Motion Picture Experts Group) Layer 3) - a format for compressing audio files.</li>
+			<li>ASCII (American Standard Code for Information Interchange) -  translates letters, symbols, and numbers into 			numerical values for computers to understand.</li>
+			<li>SSL (Secure Sockets Layer) - Encrypts data that is being transmitted to prevent interceptions.</li>
+			<li>TLS (Transport Layer Security) - Evolved from SSL, encrypts communication between web applications and 				servers.</li>
+		</ul>
+	</details>
+<br>
+<br>
+	<details open>
+		<summary style="font-size:25px;";><b><u>Compatability</u></b></summary>
+		<hr>
+		<p>Different systems may use different encoding systems which are not compatible with each other at first. Layer 6 ensures 		compatibility by translating the data into the proper syntax that the other system understands. This way, the other system 		can accurately communicate with a different system without a huge error.</p>
+	</details>
+<br>
+<br>
+	<details open>
+		<summary style="font-size:25px;";><u><b>Relationship to Other OSI Layers</u></b></summary>
+		<hr>
+		<p>Layer 6 formats and encrypts the data sent by the application layer to ensure that the other system’s application layer 		can understand. This way, the application layer of a different device can send emails and access the same web pages from 		an entirely different type of system or device.</p>
+		<p>Layer 6 interacts with other layers as well. For example, with Layer 5, the session layer, layer 5 helps two different 		systems connects with each other. Layer 6 is able to encrypt data which layer 5 can help transmit by creating a session 		between two systems.</p>
+	</details>
+<br>
+<br>
+</p>
+</body>

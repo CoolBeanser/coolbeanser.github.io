@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang ="en">
+<title>Layer 5</title>
+<link rel="stylesheet" href="layer5.css">
+<link rel="icon" type="image/x-icon" href="Images/OSI-ICON.png">
+<ul class="navigation">
+	<li><img src="Images/OSI-ICON.png" alt="OSI Icon" width="50" height="50"></li>
+	<li><a href="home.html" target="_self" >Home</a></li>
+	<li><a href="layerseven.html" target="_self" >Layer 7</a></li>
+	<li><a href="layersix.html" target="_self">Layer 6</a></li>
+	<li><a href="layerfive.html" target="_self" style="background-color:teal;">Layer 5</a></li>
+	<li><a href="layerfour.html" target="_self">Layer 4</a></li>
+</ul>
+<h1 style="text-align:center; font-size:50px;">Layer 5 of the OSI Model</h1>
+<hr>
+<body>
+<p>
+	<details open>
+		<summary style="font-size:25px;"><b><u>Defintion</u></b></summary>
+		<hr>
+		<p> Layer 5 is the session layer, manages and setups connections between different systems. Helps with reliable connection 		that is organized and efficient. This layer is in between layer 7 and 6, an is crucial for allowing systems to communicate 		with each other.</p>
+	</details>
+
+<br>
+<br>
+
+	<details open>
+		<summary style="font-size:25px;";><u><b>Functions</u></b></summary>
+		<hr>
+		<p> Layer 5 uses functions like session setup, which first creates a connection between two systems or application, 			usually with setting parameters and authentication when needed. Synchronization, set up checkpoints for recovery in case 		of session failure. Termination, ending a session and ensuring all data is properly exchanged and none is lost.</p>
+		<br>
+		<b><u><p>Function Overview</p></b></u>
+		<ul>
+			<li>Session setup - communication parameters, authentication, duplex mode</li>
+			<li>Maintenance - checkpoints, prevents duplication, Controls turn, security</li>
+			<li>Termination - ends communication</li>
+			<li>Synchronization - recover from failures (synchronization points). Avoid overlapping</li>
+		</ul>
+	</details>
+<br>
+<br>
+	<details open>
+		<summary style="font-size:25px;";><b><u>Protocols</u></b></summary>
+		<hr>
+		<p>Layer 5 has protocols like ADSP, which was developed by Apple and allows a network to configure itself for reliable 			data delivery. RTCP, which ensures the quality of the data remains high, by providing feedback regarding the quality of a 		data stream. PAP, used for security by limiting access to users and asking for a password request.</p>
+		<br>
+		<b><u><p>Protocol Overview</p></b></u>
+		<ul>
+			<li>ADSP (AppleTalk Data Stream Protocol) - developed by Apple Inc. allows a network to configure itself.</li>
+			<li>RTCP (real-time transport control protocol) - make sures the quality of service remains high.</li>
+			<li>PAP (password authentication protocol) - limits access to users to ensure security. Asks for password request. 			</li>
+		</ul>
+	</details>
+<br>
+<br>
+	<details open>
+		<summary style="font-size:25px;";><b><u>Coordinate Ongoing Exchange</u></b></summary>
+		<hr>
+		<p>Layer 5 coordinates ongoing exchanges by allowing systems to send data to each other smoothly and securely. On an 			active video call layer 5 will establish a connection between the two and use checkpoints incase the call experiences an 		error.</p>
+	</details>
+<br>
+<br>
+	<details open>
+		<summary style="font-size:25px;";><u><b>Relationship to Other OSI Layers</u></b></summary>
+		<hr>
+		<p>Layer 6, the presentation layer formats and encrypts data that is sent over a session created by layer 5 and the other 		layer 6 decrypts once it reached its destination.</p>
+		<p> Layer 4, the transport layer uses the session created by layer 5 to transport the data effectively.</p>
+	</details>
+<br>
+<br>
+</p>
+</body>

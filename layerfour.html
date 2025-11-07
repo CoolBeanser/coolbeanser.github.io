@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang ="en">
+<title>Layer 4</title>
+<link rel="stylesheet" href="layer4.css">
+<link rel="icon" type="image/x-icon" href="Images/OSI-ICON.png">
+<ul class="navigation">
+	<li><img src="Images/OSI-ICON.png" alt="OSI Icon" width="50" height="50"></li>
+	<li><a href="home.html" target="_self" >Home</a></li>
+	<li><a href="layerseven.html" target="_self" >Layer 7</a></li>
+	<li><a href="layersix.html" target="_self">Layer 6</a></li>
+	<li><a href="layerfive.html" target="_self">Layer 5</a></li>
+	<li><a href="layerfour.html" target="_self" style="background-color:teal;">Layer 4</a></li>
+</ul>
+<h1 style="text-align:center; font-size:50px;">Layer 4 of the OSI Model</h1>
+<hr>
+<body>
+<p>
+	<details open>
+		<summary style="font-size:25px;"><b><u>Defintion</u></b></summary>
+		<hr>
+		<p> Layer 4 is the transport layer it has the role of data transfer between two systems. This layer sits between layer 5 		and layer 3 and is needed to transport data across a network both effectively and securely.</p>
+	</details>
+
+<br>
+<br>
+
+	<details open>
+		<summary style="font-size:25px;";><u><b>Functions</u></b></summary>
+		<hr>
+		<p>  Layer 4 uses functions like segmentation, breaking down the data for faster and more efficient data transfer. 			Reassembly, to put the data back together at its destination to be properly read. Flow control, manages the rate of data 		transmission to prevent overloading on slower recievers. </p>
+		<br>
+		<b><u><p>Function Overview</p></b></u>
+		<ul>
+			<li>Segmentation - breaks down data for network transmission</li>
+			<li>Reassembly - reconstructs the data into its original format at the destination</li>
+			<li>Error checking - checksums are used to verify data integrity. Compares incoming and transmitted values and 				data to find corruption</li>
+			<li>Flow control - manages the rate of data transmission from fast senders to slow receivers, this prevents 				overloading</li>
+		</ul>
+	</details>
+<br>
+<br>
+	<details open>
+		<summary style="font-size:25px;";><b><u>Protocols</u></b></summary>
+		<hr>
+		<p>Layer 4 uses protocols like TCP, a reliable protocol that requires a connection to be set up before data is 				transmitted. UDP, doesn’t require a connection and priotizes speed and size over security and overall reliability. SCTP, a 		reliable transport protocol that has both features of TCP and UDP. </p>
+		<br>
+		<b><u><p>Protocol Overview</p></b></u>
+		<ul>
+			<li>TCP (Transmission Control Protocol) - typically a reliable protocol, connection oriented (connection is 				created first before data is transferred, and terminated once data transmission ends)</li>
+			<li>UDP (User Datagram Protocol) - a connentionless protocol, used when speed and size is more important than 				security and reliability (data is just given an address, checksums, and length information</li>
+			<li>SCTP (Stream Control Transmission Protocol) - most commonly used, dependable transport protocol that has 				features of both UPD and TCP.</li>
+		</ul>
+	</details>
+<br>
+<br>
+	<details open>
+		<summary style="font-size:25px;";><b><u>Real World Examples</u></b></summary>
+		<hr>
+		<p>TCP is used in web browsings to ensure that everything properly loads with it’s reliable delivery. UPD is used in 			videos, online games, and live videos because it prioritizes aspects of data transfer like its speed and size over a need 		for everything to load perfectly and securely as possible.</p>
+	</details>
+<br>
+<br>
+	<details open>
+		<summary style="font-size:25px;";><u><b>Relationship to Other OSI Layers</u></b></summary>
+		<hr>
+		<p>Layer 5 sends data to layer 4 to be broken into segments before transmitted along one of layer 5’s sessions.</p>
+		<p> Layer 3, the network layer, receives the data from layer 4 and adds IP address before routing it to the correct 			location for transmission.</p>
+	</details>
+<br>
+<br>
+</p>
+</body>
