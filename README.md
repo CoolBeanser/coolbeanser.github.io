@@ -1,2 +1,2 @@
 # coolbeanser.github.io
-Just Layer 6
+My OSI Model Project
